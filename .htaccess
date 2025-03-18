@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{SERVER_PORT} !=443
+RewriteRule ^(.*)$ https://www--arc.com [R=301,L]
